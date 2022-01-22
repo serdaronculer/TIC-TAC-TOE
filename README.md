@@ -18,7 +18,7 @@ Here you see the desktop web view of the project.
 
 ## Link
 
-Live Site URL: [Live Site](https://serdaronculer.github.io/TO-DO-LIST/index.html)
+Live Site URL: [Live Site](https://serdaronculer.github.io/TIC-TAC-TOE/)
 
 ## Built with
 
