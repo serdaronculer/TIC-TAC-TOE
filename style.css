@@ -75,6 +75,7 @@ body{
     font-size: 2rem;
     color: #fff;
     visibility: hidden;
+    z-index: 1;
 }
 .menu{
     position: absolute;
@@ -145,3 +146,41 @@ body{
     background: linear-gradient(#2196f3,#31ff38);
 
 }
+
+@media screen and (max-width: 700px) {
+    .block{
+        width: 75px;
+        height: 75px;
+    }
+    .info{
+        width: 400px;
+        height: 400px;
+    }
+    .info .info-header{
+        font-size: 2rem;
+    }
+    .restart{
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 10px 40px;
+        color: #fff;
+        background: linear-gradient(#ffc107,#e91e63);
+        border-radius: 10px;
+        font-size: 20px;
+    
+    }
+    .winner > div{
+        font-size: 1.4rem;
+    }
+    .min-block{
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        border: 1px solid black;
+        font-weight: bold;
+    }
+  }
